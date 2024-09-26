@@ -239,7 +239,7 @@
             </div>
             <div class="owl-carousel news-carousel carousel-item-4 position-relative">
                 <div class="position-relative overflow-hidden" style="height: 300px;">
-                    <img class="img-fluid h-100" src="{% static 'img/fire-1.jpeg' %}" style="object-fit: cover;">
+                    <img class="img-fluid h-100" src="img/fire-1.jpeg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
                             <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
@@ -250,7 +250,7 @@
                     </div>
                 </div>
                 <div class="position-relative overflow-hidden" style="height: 300px;">
-                    <img class="img-fluid h-100" src="{% static 'img/firee.jpeg' %}" style="object-fit: cover;">
+                    <img class="img-fluid h-100" src="img/firee.jpeg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
                             <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
@@ -261,7 +261,7 @@
                     </div>
                 </div>
                 <div class="position-relative overflow-hidden" style="height: 300px;">
-                    <img class="img-fluid h-100" src="{% static 'img/fire-6.jpeg' %}" style="object-fit: cover;">
+                    <img class="img-fluid h-100" src="img/fire-6.jpeg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
                             <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
@@ -291,25 +291,7 @@
                             </div>
                         </div>
 
-                        {% for p in product %}
-                        
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-3">
-                                <img class="img-fluid w-100" src="{{  p.product_img.url }}" style="object-fit: cover;">
-                                <div class="bg-white border border-top-0 p-4">
-                                    <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="">more</a>
-                                        <a class="text-body" href=""><small></small></a>
-                                    </div>
-                                    <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">{{ p.name }}</a>
-                                    <p class="m-0">{{  p.product_des }}</p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                        {% endfor %}
-                     
+                       
                      
                     </div>
                 </div>
@@ -357,9 +339,10 @@
         <div class="row py-4">
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="mb-4 text-white text-uppercase font-weight-bold">Get In Touch</h5>
-                <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>Shop A9 Sunshine Bazzar Opp Star Fm Simon Mazorodze Road HarareS</p>
+                <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>Shop FS14 and FS15 Phase Sunshine Bazzar Opp Matlock Service Station Simon Mazorodze Road HarareS</p>
                 <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+263 772 336 492</p>
                 <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+263 716 411 289</p>
+                <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+263 771 503 129</p>
                 <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>firequip@iwayafrica.co.zw</p>
                 <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Follow Us</h6>
                 <div class="d-flex justify-content-start">
